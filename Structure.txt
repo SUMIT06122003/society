@@ -1,0 +1,44 @@
+society-management/
+└── src/
+    ├── App.js
+    ├── index.js
+    ├── firebase.js
+    │
+    ├── context/
+    │   └── AuthContext.js
+    │
+    ├── components/
+    │   ├── Navbar.js
+    │   ├── Sidebar.js
+    │   └── ProtectedRoute.js
+    │
+    ├── pages/
+    │   ├── Auth/
+    │   │   ├── Login.js
+    │   │   ├── Register.js
+    │   │   └── RoleRedirect.js
+    │   │
+    │   ├── Admin/
+    │   │   ├── Dashboard.js
+    │   │   ├── CreateWatchman.js
+    │   │   ├── Residents.js
+    │   │   ├── UploadEventFile.js
+    │   │   ├── MaintenanceStatus.js
+    │   │   └── Notifications.js
+    │   │
+    │   ├── Resident/
+    │   │   ├── Dashboard.js
+    │   │   ├── PayMaintenance.js
+    │   │   ├── Amenities.js
+    │   │   ├── Bookings.js
+    │   │   └── UploadEventPhotos.js
+    │   │
+    │   ├── Watchman/
+    │   │   ├── Dashboard.js
+    │   │   └── AddVisitor.js
+    │   │
+    │   └── NotFound.js
+    │
+    └── utils/
+        └── roles.js
+
